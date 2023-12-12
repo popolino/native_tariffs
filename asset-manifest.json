@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/native_tariffs/static/css/main.df20bb56.css",
+    "main.js": "/native_tariffs/static/js/main.61dcbaed.js",
+    "static/js/787.d7523c76.chunk.js": "/native_tariffs/static/js/787.d7523c76.chunk.js",
+    "index.html": "/native_tariffs/index.html",
+    "main.df20bb56.css.map": "/native_tariffs/static/css/main.df20bb56.css.map",
+    "main.61dcbaed.js.map": "/native_tariffs/static/js/main.61dcbaed.js.map",
+    "787.d7523c76.chunk.js.map": "/native_tariffs/static/js/787.d7523c76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df20bb56.css",
+    "static/js/main.61dcbaed.js"
+  ]
+}
