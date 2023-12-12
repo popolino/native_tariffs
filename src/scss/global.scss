@@ -1,0 +1,73 @@
+:root{
+  --backgorund: #0F1014;
+  --text_dop: #A6A7B1;
+  --content_main: #F5F5FA;
+  --background_dop:#1D1E24;
+  --blue_gray: #303245;
+  --accent_main:#3A48E1;
+  color: var(--content_main);
+  font-size: 12px;
+
+}
+
+.main{
+  position: relative;
+  background: var(--backgorund);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: end;
+
+  & > div{
+    margin: 20px;
+    color: var(--content_main);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    & > p{
+      color: var(--text_dop);
+      font-size: 12px;
+
+    }
+    & > button{
+      color:var(--content_main);
+      font-size: 12px;
+      text-decoration: underline;
+    }
+  }
+
+}
+.modal-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(18, 18, 23, 0.92);
+}
+
+.fade-in {
+  animation: fade-in forwards;
+}
+
+.fade-out {
+  animation: fade-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
